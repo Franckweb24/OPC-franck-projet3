@@ -1,0 +1,45 @@
+
+$text-bando: #fdcb46;
+$color-bando: #579c87;
+$box-shad: #bbba;
+
+/*--header--*/
+
+header{
+  font-family: 'Montserrat', sans-serif;
+  background-color: $color-bando;
+  height: 6rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 3rem;
+  color: $text-bando;
+}
+
+/*--footer--*/ 
+
+footer{
+  background-color: $color-bando;
+  height: 6rem;
+}
+
+/*--menu--*/
+
+article{
+  width: 16rem;
+  height: 21rem;
+  margin: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 1rem $box-shad;
+}
+
+.menu1{
+  background-color: #fcdfdb;
+}

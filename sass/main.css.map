@@ -1,0 +1,23 @@
+{
+    "version": 3,
+    "mappings": "AKKA,cAAc;AAEd,AAAA,MAAM,CAAA;EACJ,WAAW,EAAE,wBAAwB;EACrC,gBAAgB,EAPJ,OAAO;EAQnB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,cAAc,EAAE,MAAM;CACvB;;AAED,AAAA,EAAE,CAAA;EACA,SAAS,EAAE,IAAI;EACf,KAAK,EAlBM,OAAO;CAmBnB;;AAED,cAAc;AAEd,AAAA,MAAM,CAAA;EACJ,gBAAgB,EAvBJ,OAAO;EAwBnB,MAAM,EAAE,IAAI;CACb;;AAED,YAAY;AAEZ,AAAA,OAAO,CAAA;EACL,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,cAAc,EAAE,MAAM;EACtB,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CApCX,KAAK;CAqCf;;AAED,AAAA,MAAM,CAAA;EACJ,gBAAgB,EAAE,OAAO;CAC1B",
+    "sources": [
+        "main.scss",
+        "utils/_variables.scss",
+        "utils/_functions.scss",
+        "utils/_mixins.scss",
+        "utils/_extensions.scss",
+        "base/_base.scss",
+        "base/_typography.scss",
+        "components/_buttons.scss",
+        "layout/_header.scss",
+        "layout/_nav.scss",
+        "layout/_container.scss",
+        "layout/_form.scss",
+        "pages/_work.scss",
+        "pages/_about.scss",
+        "pages/_project.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

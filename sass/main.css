@@ -1,0 +1,53 @@
+/*--header--*/
+header {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #579c87;
+  height: 6rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fdcb46;
+}
+
+/*--footer--*/
+footer {
+  background-color: #579c87;
+  height: 6rem;
+}
+
+/*--menu--*/
+article {
+  width: 16rem;
+  height: 21rem;
+  margin: 3rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 0 1rem #bbba;
+          box-shadow: 0 0 1rem #bbba;
+}
+
+.menu1 {
+  background-color: #fcdfdb;
+}
+/*# sourceMappingURL=main.css.map */
