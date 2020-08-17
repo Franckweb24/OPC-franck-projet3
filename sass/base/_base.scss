@@ -1,9 +1,14 @@
+$color-bando: #579C87;
+$color-title: #fcca46;
+$box-shad: #C6BDC6;
+$color-m2: #FEF5FE;
+$color-m3: #F9F9F9;
 
-$text-bando: #fdcb46;
-$color-bando: #579c87;
-$box-shad: #bbba;
+/*-----------------header------------------*/
 
-/*--header--*/
+body{
+  margin: auto;
+}
 
 header{
   font-family: 'Montserrat', sans-serif;
@@ -17,17 +22,15 @@ header{
 
 h1{
   font-size: 3rem;
-  color: $text-bando;
+  color: $color-title;
 }
 
-/*--footer--*/ 
-
-footer{
-  background-color: $color-bando;
-  height: 6rem;
+a, a:hover{
+  text-decoration: none;
 }
 
-/*--menu--*/
+
+/*-------------menu page accueil------------*/
 
 article{
   width: 16rem;
@@ -37,9 +40,44 @@ article{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  box-shadow: 0 0 1rem $box-shad;
+  box-shadow: 0 0 0.6rem $box-shad;
 }
+
+h3{
+  font-size: 1.8rem;
+}
+
+h4{
+  font-size: 2rem;
+}
+/*-------------------menu1------------------*/
 
 .menu1{
   background-color: #fcdfdb;
+}
+
+.menu-cover_img{
+  width: 4rem;
+}
+/*------------------menu2-------------------*/
+
+.menu2{
+  background-color: $color-m2;
+}
+/*------------------menu3-------------------*/
+
+.menu3{
+  background-color: $color-m3;
+}
+
+/*------------------menu4------------------*/
+.menu4{
+
+}
+
+/*-----------------footer------------------*/ 
+
+footer{
+  background-color: $color-bando;
+  height: 6rem;
 }
