@@ -1,8 +1,20 @@
-/*-----------------header------------------*/
+/*----------------body-main----------------*/
 body {
   margin: auto;
 }
 
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*---------------header-------------------*/
 header {
   font-family: 'Montserrat', sans-serif;
   background-color: #579C87;
@@ -31,9 +43,9 @@ a, a:hover {
 
 /*-------------menu page accueil------------*/
 article {
-  width: 16rem;
-  height: 21rem;
-  margin: 3rem;
+  width: 18rem;
+  height: 25rem;
+  margin: 2rem;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,10 +63,6 @@ article {
 
 h3 {
   font-size: 1.8rem;
-}
-
-h4 {
-  font-size: 2rem;
 }
 
 /*-------------------menu1------------------*/
@@ -77,9 +85,42 @@ h4 {
 }
 
 /*------------------menu4------------------*/
+/*-----------section prochainement----------*/
+.load {
+  background-color: #579C87;
+  width: 18rem;
+  height: 3rem;
+  border-radius: 0.6rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.loading {
+  display: block;
+  margin: auto;
+  padding-top: 0.5rem;
+  font-size: 1.6rem;
+  color: #fcca46;
+}
+
 /*-----------------footer------------------*/
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #579C87;
-  height: 6rem;
+  height: 4rem;
+}
+
+.vibreur {
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #fcca46;
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=main.css.map */
