@@ -1,6 +1,7 @@
 /*----------------body-main----------------*/
 body {
   margin: auto;
+  font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -14,9 +15,13 @@ main {
           justify-content: center;
 }
 
+.conteneur {
+  width: 800px;
+  margin: auto;
+}
+
 /*---------------header-------------------*/
 header {
-  font-family: 'Montserrat', sans-serif;
   background-color: #579C87;
   height: 6rem;
   text-align: center;
@@ -41,7 +46,7 @@ a, a:hover {
   text-decoration: none;
 }
 
-/*-------------menu page accueil------------*/
+/*-------------menu page accueil+h2+h3------------*/
 article {
   width: 18rem;
   height: 25rem;
@@ -61,17 +66,51 @@ article {
           box-shadow: 0 0 0.6rem #C6BDC6;
 }
 
+h2 {
+  font-size: 1.4rem;
+}
+
 h3 {
-  font-size: 1.8rem;
+  font-size: 2rem;
+}
+
+.link:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 0.5;
+}
+
+/*--------------menu1-2-3-4-zoom------------*/
+.mouv {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 600ms;
+  transition: -webkit-transform 600ms;
+  transition: transform 600ms;
+  transition: transform 600ms, -webkit-transform 600ms;
+}
+
+.mouv:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 /*-------------------menu1------------------*/
 .menu1 {
-  background-color: #fcdfdb;
+  background-color: #FDE0DC;
+  color: black;
 }
 
 .menu-cover_img {
-  width: 4rem;
+  width: 3rem;
+}
+
+.note {
+  font-family: 'Devonshire', cursive;
+  font-size: 2rem;
+}
+
+.h3-m1 {
+  font-family: 'Kalam', cursive;
 }
 
 /*------------------menu2-------------------*/
@@ -79,12 +118,41 @@ h3 {
   background-color: #FEF5FE;
 }
 
+.chic {
+  font-family: 'Kurale', serif;
+}
+
+.h3-m2 {
+  font-family: 'Aref Ruqaa', serif;
+  color: #C77412;
+}
+
 /*------------------menu3-------------------*/
 .menu3 {
   background-color: #F9F9F9;
 }
 
+.delice {
+  font-family: 'Dancing Script', cursive;
+}
+
+.h3-m3 {
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
+  color: #0887FB;
+}
+
 /*------------------menu4------------------*/
+.palette {
+  font-family: "kaushan Script", cursive;
+}
+
+.h3-m4 {
+  font-family: "kalam", cursive;
+  font-weight: 300;
+  color: #72BF56;
+}
+
 /*-----------section prochainement----------*/
 .load {
   background-color: #579C87;
@@ -97,11 +165,11 @@ h3 {
 }
 
 .loading {
-  display: block;
   margin: auto;
   padding-top: 0.5rem;
   font-size: 1.6rem;
   color: #fcca46;
+  font-weight: 400;
 }
 
 /*-----------------footer------------------*/
@@ -114,6 +182,9 @@ footer {
           justify-content: space-between;
   background-color: #579C87;
   height: 4rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .vibreur {
@@ -122,5 +193,26 @@ footer {
   padding-right: 3rem;
   color: #fcca46;
   font-size: 1.6rem;
+}
+
+/*--------------------media-queries------------------*/
+@media all and (max-width: 1000px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .conteneur {
+    width: 100%;
+    margin: auto;
+  }
+  header {
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */
