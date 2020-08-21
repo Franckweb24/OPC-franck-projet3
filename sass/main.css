@@ -120,6 +120,10 @@ h3 {
 
 .chic {
   font-family: 'Kurale', serif;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(35%, #c77412), color-stop(65%, #905BFD));
+  background-image: linear-gradient(0.25turn, #c77412 35%, #905BFD 65%);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .h3-m2 {
@@ -134,6 +138,11 @@ h3 {
 
 .delice {
   font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #0431df), color-stop(50%, #518cf0), color-stop(20%, #0887fb));
+  background-image: linear-gradient(0.25turn, #0431df 30%, #518cf0 50%, #0887fb 20%);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .h3-m3 {
@@ -145,6 +154,11 @@ h3 {
 /*------------------menu4------------------*/
 .palette {
   font-family: "kaushan Script", cursive;
+  font-size: 1.8rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3D9339), color-stop(#8BD363), to(#BFFF7E));
+  background-image: linear-gradient(0.25turn, #3D9339, #8BD363, #BFFF7E);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .h3-m4 {
