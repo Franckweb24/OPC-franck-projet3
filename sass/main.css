@@ -107,6 +107,9 @@ h3 {
 .note {
   font-family: 'Devonshire', cursive;
   font-size: 2rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(0.25), color-stop(#F15861), to(#F8A183));
+  background-image: linear-gradient(0.25, #F15861, #F8A183);
+  -webkit-background-clip: text;
 }
 
 .h3-m1 {
@@ -170,20 +173,77 @@ h3 {
 /*-----------section prochainement----------*/
 .load {
   background-color: #579C87;
-  width: 18rem;
-  height: 3rem;
+  width: 20rem;
+  height: 4rem;
   border-radius: 0.6rem;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  padding-bottom: 0.3rem;
 }
 
 .loading {
   margin: auto;
-  padding-top: 0.5rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #fcca46;
   font-weight: 400;
+}
+
+.loading span {
+  display: inline-block;
+  -webkit-animation: dots 2s infinite ease-in-out;
+          animation: dots 2s infinite ease-in-out;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-name: dots;
+          animation-name: dots;
+  font-size: 3rem;
+}
+
+.loading .point2 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.loading .point3 {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+@-webkit-keyframes dots {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes dots {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 /*-----------------footer------------------*/
@@ -227,6 +287,33 @@ footer {
   }
   header {
     margin: auto;
+  }
+  .load {
+    margin-bottom: 8rem;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 600px) {
+  header {
+    width: 100%;
+  }
+  .load {
+    margin-bottom: 17rem;
+    margin-top: 6rem;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 7rem;
+    padding-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

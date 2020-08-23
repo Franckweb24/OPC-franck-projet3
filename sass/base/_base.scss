@@ -84,6 +84,7 @@ h3 {
 .note {
   font-family: 'Devonshire', cursive;
   font-size: 2rem;
+  @include gradient-note;
 }
 
 .h3-m1 {
@@ -139,26 +140,59 @@ h3 {
 }
 
 /*-----------section prochainement----------*/
-section {
-  
-}
+
+
 
 .load {
   background-color: $color-bando;
-  width: 18rem;
-  height: 3rem;
+  width: 20rem;
+  height: 4rem;
   border-radius: 0.6rem;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  padding-bottom: 0.3rem;
 }
 
 .loading {
   margin: auto;
-  padding-top: 0.5rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: $color-title;
   font-weight: 400;
+}
+
+.loading span {
+  display: inline-block;
+    animation: dots 2s infinite ease-in-out;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: dots;
+    font-size: 3rem;
+}
+
+.loading .point2 {
+  animation-delay: 0.4s;
+}
+
+.loading .point3 {
+  animation-delay: 0.8s;
+}
+
+@keyframes dots {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 /*-----------------footer------------------*/ 
@@ -200,4 +234,34 @@ footer {
   header {
     margin: auto;
   }
+
+  .load {
+    margin-bottom: 8rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+}
+
+@media all and (max-width: 600px)
+
+{
+  header {
+    width: 100%;
+  }
+
+  .load {
+    margin-bottom: 17rem;
+    margin-top: 6rem;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 7rem;
+    padding-bottom: 2rem;
+  }
+
 }
