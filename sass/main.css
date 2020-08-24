@@ -222,6 +222,11 @@ h3 {
           animation-delay: 0.8s;
 }
 
+.loading .point4 {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
 @-webkit-keyframes dots {
   0% {
     opacity: 0;
@@ -231,6 +236,14 @@ h3 {
   }
   100% {
     opacity: 0;
+  }
+  40% {
+    -webkit-transform: translateY(0.7rem);
+            transform: translateY(0.7rem);
+  }
+  100% {
+    -webkit-transform: translateX(0.5rem);
+            transform: translateX(0.5rem);
   }
 }
 
@@ -243,6 +256,14 @@ h3 {
   }
   100% {
     opacity: 0;
+  }
+  40% {
+    -webkit-transform: translateY(0.7rem);
+            transform: translateY(0.7rem);
+  }
+  100% {
+    -webkit-transform: translateX(0.5rem);
+            transform: translateX(0.5rem);
   }
 }
 
@@ -266,7 +287,7 @@ footer {
   padding-left: 3rem;
   padding-right: 3rem;
   color: #fcca46;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 /*--------------------media-queries------------------*/
