@@ -177,9 +177,9 @@ h3 {
   height: 4rem;
   border-radius: 0.6rem;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-  padding-bottom: 0.3rem;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  padding-bottom: 0.5rem;
 }
 
 .loading {
@@ -276,18 +276,53 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #579C87;
-  height: 4rem;
+  height: 5rem;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
 .vibreur {
-  padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
+  text-align: center;
   color: #fcca46;
   font-size: 1.4rem;
+  padding-top: 1.5rem;
+  text-decoration: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.vibreur:hover {
+  -webkit-animation: shake 0.1s infinite ease-in-out;
+          animation: shake 0.1s infinite ease-in-out;
+}
+
+a:webkit-any-link {
+  cursor: pointer;
+}
+
+@-webkit-keyframes shake {
+  from {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+  to {
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
+  }
+}
+
+@keyframes shake {
+  from {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+  to {
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
+  }
 }
 
 /*--------------------media-queries------------------*/

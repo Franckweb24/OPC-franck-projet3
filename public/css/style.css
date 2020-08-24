@@ -147,9 +147,9 @@ h3 {
   height: 4rem;
   border-radius: 0.6rem;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-  padding-bottom: 0.3rem;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  padding-bottom: 0.5rem;
 }
 
 .loading {
@@ -207,20 +207,39 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #579C87;
-  height: 4rem;
+  height: 5rem;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
 .vibreur {
-  padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
+  text-align: center;
   color: #fcca46;
   font-size: 1.4rem;
+  padding-top: 1.5rem;
+  text-decoration: none;
+  text-decoration-line: none;
 }
 
+.vibreur:hover {
+  animation: shake 0.1s infinite ease-in-out;
+}
+
+a:webkit-any-link {
+  cursor: pointer;
+}
+
+@keyframes shake {
+  from {
+    transform: rotate(6deg);
+  }
+  to {
+    transform: rotate(-6deg);
+  }
+}
 /*--------------------media-queries------------------*/
 @media all and (max-width: 1000px) {
   main {
