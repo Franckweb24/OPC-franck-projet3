@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
-    "sass-compressed": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed"
+    "sass-compressed": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public.css/prefixed"
   },
   "author": "",
   "license": "ISC",
+  "browserslist": "last 4 version",
   "dependencies": {
     "sass": "^1.26.10"
   }

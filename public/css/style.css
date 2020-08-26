@@ -196,9 +196,12 @@ h3 {
     opacity: 0;
   }
   40% {
+    transform: scale(0.5);
+  }
+  40% {
     transform: translateY(0.7rem);
   }
-  100% {
+  90% {
     transform: translateX(0.5rem);
   }
 }
@@ -253,23 +256,14 @@ a:webkit-any-link {
     margin: auto;
   }
 
+  /*--------------------header--------------------*/
   header {
     margin: auto;
+    width: auto;
+    margin-bottom: 3rem;
   }
 
-  .load {
-    margin-bottom: 8rem;
-  }
-
-  footer {
-    text-align: center;
-  }
-}
-@media all and (max-width: 600px) {
-  header {
-    width: 100%;
-  }
-
+  /*--------------------footer--------------------*/
   .load {
     margin-bottom: 17rem;
     margin-top: 6rem;
@@ -277,9 +271,9 @@ a:webkit-any-link {
 
   footer {
     display: flex;
-    flex-direction: column;
-    height: 7rem;
+    height: 3rem;
     padding-bottom: 2rem;
+    text-align: center;
   }
 }
 
