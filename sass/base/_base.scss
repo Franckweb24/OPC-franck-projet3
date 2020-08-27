@@ -233,7 +233,7 @@ footer {
 
 .vibreur {
   &:hover{
-    animation: shake 0.1s infinite ease-in-out;
+    animation: shake 100ms infinite ease-in-out;
   }
 }
 
@@ -250,7 +250,7 @@ a:webkit-any-link {
   }
 }
 
-/*--------------------media-queries------------------*/
+/*------------media-queries-1000px----------------*/
 
 
 @media all and (max-width: 1000px)
@@ -278,7 +278,7 @@ a:webkit-any-link {
   /*--------------------footer--------------------*/
 
   .load {
-    margin-bottom: 17rem;
+    margin-bottom: 12rem;
     margin-top: 6rem;
   }
   
@@ -290,3 +290,39 @@ a:webkit-any-link {
   }
 
 }
+
+/*------------madia-queries-680px-------------*/
+
+@media all and (max-width: 680px)
+
+{
+
+  body {
+    margin: auto;
+  }
+
+  .conteneur {
+    margin: auto;
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+    position: fixed;
+  }
+
+  .menu1 {
+    margin-top: 10rem;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .vibreur {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+

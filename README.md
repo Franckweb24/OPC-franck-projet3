@@ -6,3 +6,6 @@ npm run sass
 
 #Compresser Sass
 npm run sass-compressed
+
+#Autoprefixer
+npm run prefix
