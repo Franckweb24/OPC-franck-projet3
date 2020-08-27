@@ -1,7 +1,96 @@
+/*-------------page-acceuil-------------*/
+.link:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 0.5;
+}
+
+/*--------------menu1-2-3-4-zoom------------*/
+.mouv {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 600ms;
+  transition: -webkit-transform 600ms;
+  transition: transform 600ms;
+  transition: transform 600ms, -webkit-transform 600ms;
+}
+
+.mouv:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+/*-----------section-prochainement----------*/
+.loading .point2 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.loading .point3 {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.loading .point4 {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+@-webkit-keyframes dots {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  40% {
+    -webkit-transform: translateY(0.7rem);
+            transform: translateY(0.7rem);
+  }
+  90% {
+    -webkit-transform: translateX(0.5rem);
+            transform: translateX(0.5rem);
+  }
+}
+
+@keyframes dots {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  40% {
+    -webkit-transform: translateY(0.7rem);
+            transform: translateY(0.7rem);
+  }
+  90% {
+    -webkit-transform: translateX(0.5rem);
+            transform: translateX(0.5rem);
+  }
+}
+
 /*----------------body----------------*/
 body {
   margin: auto;
   font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  font-size: 16px;
 }
 
 /*-------------menu page accueil+h2+h3------------*/
@@ -30,26 +119,6 @@ h2 {
 
 h3 {
   font-size: 2rem;
-}
-
-.link:hover {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  opacity: 0.5;
-}
-
-/*--------------menu1-2-3-4-zoom------------*/
-.mouv {
-  cursor: pointer;
-  -webkit-transition: -webkit-transform 600ms;
-  transition: -webkit-transform 600ms;
-  transition: transform 600ms;
-  transition: transform 600ms, -webkit-transform 600ms;
-}
-
-.mouv:hover {
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
 }
 
 /*-------------------menu1------------------*/
@@ -168,69 +237,6 @@ h3 {
   -webkit-animation-name: dots;
           animation-name: dots;
   font-size: 3rem;
-}
-
-.loading .point2 {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
-}
-
-.loading .point3 {
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
-}
-
-.loading .point4 {
-  -webkit-animation-delay: 1.2s;
-          animation-delay: 1.2s;
-}
-
-@-webkit-keyframes dots {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-  40% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  40% {
-    -webkit-transform: translateY(0.7rem);
-            transform: translateY(0.7rem);
-  }
-  90% {
-    -webkit-transform: translateX(0.5rem);
-            transform: translateX(0.5rem);
-  }
-}
-
-@keyframes dots {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-  40% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  40% {
-    -webkit-transform: translateY(0.7rem);
-            transform: translateY(0.7rem);
-  }
-  90% {
-    -webkit-transform: translateX(0.5rem);
-            transform: translateX(0.5rem);
-  }
 }
 
 /*------------media-queries-1000px----------------*/
@@ -352,7 +358,7 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #579C87;
-  height: 5rem;
+  height: 3rem;
   position: fixed;
   bottom: 0;
   width: 100%;

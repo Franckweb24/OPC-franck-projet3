@@ -1,0 +1,50 @@
+  /*-------------page-acceuil-------------*/
+
+.link:hover {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+
+  /*--------------menu1-2-3-4-zoom------------*/
+
+.mouv {
+    @include zoom;
+  }
+
+  /*-----------section-prochainement----------*/
+
+  .loading .point2 {
+    animation-delay: 0.4s;
+  }
+  
+  .loading .point3 {
+    animation-delay: 0.8s;
+  }
+  
+  .loading .point4 {
+    animation-delay: 1.2s;
+  }
+  
+  @keyframes dots {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+    40% {
+      transform: scale(0.5);
+    }
+    40% {
+      transform: translateY(0.7rem);
+    }
+    90% {
+      transform: translateX(0.5rem);
+    }
+  }
+  
+  
+  

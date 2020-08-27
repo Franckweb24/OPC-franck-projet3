@@ -1,37 +1,59 @@
-/*----------------body-main----------------*/
+/*-------------page-acceuil-------------*/
+.link:hover {
+  transform: scale(1);
+  opacity: 0.5;
+}
+
+/*--------------menu1-2-3-4-zoom------------*/
+.mouv {
+  cursor: pointer;
+  transition: transform 600ms;
+}
+.mouv:hover {
+  transform: scale(1.25);
+}
+
+/*-----------section-prochainement----------*/
+.loading .point2 {
+  animation-delay: 0.4s;
+}
+
+.loading .point3 {
+  animation-delay: 0.8s;
+}
+
+.loading .point4 {
+  animation-delay: 1.2s;
+}
+
+@keyframes dots {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+  40% {
+    transform: scale(0.5);
+  }
+  40% {
+    transform: translateY(0.7rem);
+  }
+  90% {
+    transform: translateX(0.5rem);
+  }
+}
+/*----------------body----------------*/
 body {
   margin: auto;
   font-family: "Montserrat", sans-serif;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.conteneur {
-  width: 800px;
-  margin: auto;
-}
-
-/*---------------header-------------------*/
-header {
-  background-color: #579C87;
-  height: 6rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-h1 {
-  font-size: 3rem;
-  color: #fcca46;
-}
-
-a, a:hover {
-  text-decoration: none;
+html {
+  font-size: 16px;
 }
 
 /*-------------menu page accueil+h2+h3------------*/
@@ -52,20 +74,6 @@ h2 {
 
 h3 {
   font-size: 2rem;
-}
-
-.link:hover {
-  transform: scale(1);
-  opacity: 0.5;
-}
-
-/*--------------menu1-2-3-4-zoom------------*/
-.mouv {
-  cursor: pointer;
-  transition: transform 600ms;
-}
-.mouv:hover {
-  transform: scale(1.25);
 }
 
 /*-------------------menu1------------------*/
@@ -173,76 +181,6 @@ h3 {
   font-size: 3rem;
 }
 
-.loading .point2 {
-  animation-delay: 0.4s;
-}
-
-.loading .point3 {
-  animation-delay: 0.8s;
-}
-
-.loading .point4 {
-  animation-delay: 1.2s;
-}
-
-@keyframes dots {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-  40% {
-    transform: scale(0.5);
-  }
-  40% {
-    transform: translateY(0.7rem);
-  }
-  90% {
-    transform: translateX(0.5rem);
-  }
-}
-/*-----------------footer------------------*/
-footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: #579C87;
-  height: 5rem;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.vibreur {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  text-align: center;
-  color: #fcca46;
-  font-size: 1.4rem;
-  padding-top: 1.5rem;
-  text-decoration: none;
-  text-decoration-line: none;
-}
-
-.vibreur:hover {
-  animation: shake 100ms infinite ease-in-out;
-}
-
-a:webkit-any-link {
-  cursor: pointer;
-}
-
-@keyframes shake {
-  from {
-    transform: rotate(6deg);
-  }
-  to {
-    transform: rotate(-6deg);
-  }
-}
 /*------------media-queries-1000px----------------*/
 @media all and (max-width: 1000px) {
   main {
@@ -304,6 +242,75 @@ a:webkit-any-link {
   .vibreur {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+/*---------------header-page-acceuil------------------*/
+header {
+  background-color: #579C87;
+  height: 6rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fcca46;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+/*-------------conteneur-page acceuil--------------*/
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*-----------------footer-page-acceuil----------------*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #579C87;
+  height: 3rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.vibreur {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+  color: #fcca46;
+  font-size: 1.4rem;
+  padding-top: 1.5rem;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.vibreur:hover {
+  animation: shake 100ms infinite ease-in-out;
+}
+
+a:webkit-any-link {
+  cursor: pointer;
+}
+
+@keyframes shake {
+  from {
+    transform: rotate(6deg);
+  }
+  to {
+    transform: rotate(-6deg);
   }
 }
 
