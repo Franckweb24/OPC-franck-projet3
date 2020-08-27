@@ -1,0 +1,20 @@
+/*---------------header-page-acceuil------------------*/
+
+header {
+    background-color: $color-bando;
+    height: 6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: $color-title;
+  }
+  
+  a, a:hover {
+    text-decoration: none;
+  }
+  
