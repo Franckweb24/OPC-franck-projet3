@@ -4,7 +4,7 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: $color-bando;
-    height: 3rem;
+    padding-bottom: 2rem;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -21,22 +21,4 @@ footer {
     text-decoration-line: none;
   }
   
-  .vibreur {
-    &:hover{
-      animation: shake 100ms infinite ease-in-out;
-    }
-  }
-  
-  a:webkit-any-link {
-    cursor: pointer;
-  }
-  
-  @keyframes shake {
-    from{
-      transform: rotate(6deg);
-    }
-    to{
-      transform: rotate(-6deg);
-    }
-  }
   

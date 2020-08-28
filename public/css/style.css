@@ -14,15 +14,30 @@
 }
 
 /*-----------section-prochainement----------*/
-.loading .point2 {
+.anim-point span {
+  color: #fcca46;
+  display: inline-block;
+  animation: dots 2s infinite ease-in-out;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: dots;
+  font-size: 3rem;
+}
+
+.anim-point .point2 {
   animation-delay: 0.4s;
 }
 
-.loading .point3 {
+.anim-point .point3 {
   animation-delay: 0.8s;
 }
 
-.loading .point4 {
+.anim-point .point4 {
   animation-delay: 1.2s;
 }
 
@@ -44,6 +59,23 @@
   }
   90% {
     transform: translateX(0.5rem);
+  }
+}
+/*--------------vibreur-footer---------------*/
+.vibreur:hover {
+  animation: shake 100ms infinite ease-in-out;
+}
+
+a:webkit-any-link {
+  cursor: pointer;
+}
+
+@keyframes shake {
+  from {
+    transform: rotate(6deg);
+  }
+  to {
+    transform: rotate(-6deg);
   }
 }
 /*----------------body----------------*/
@@ -165,93 +197,20 @@ h3 {
   font-size: 1.8rem;
   color: #fcca46;
   font-weight: 400;
-}
-
-.loading span {
   display: inline-block;
-  animation: dots 2s infinite ease-in-out;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-play-state: running;
-  animation-name: dots;
-  font-size: 3rem;
 }
 
-/*------------media-queries-1000px----------------*/
-@media all and (max-width: 1000px) {
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .conteneur {
-    width: 100%;
-    margin: auto;
-  }
-
-  /*--------------------header--------------------*/
-  header {
-    margin: auto;
-    width: auto;
-    margin-bottom: 3rem;
-  }
-
-  /*--------------------footer--------------------*/
-  .load {
-    margin-bottom: 12rem;
-    margin-top: 6rem;
-  }
-
-  footer {
-    display: flex;
-    height: 3rem;
-    padding-bottom: 2rem;
-    text-align: center;
-  }
+.anim-point {
+  display: inline-block;
 }
-/*------------madia-queries-680px-------------*/
-@media all and (max-width: 680px) {
-  body {
-    margin: auto;
-  }
 
-  .conteneur {
-    margin: auto;
-    width: 100%;
-  }
-
-  header {
-    width: 100%;
-    position: fixed;
-  }
-
-  .menu1 {
-    margin-top: 10rem;
-  }
-
-  footer {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .vibreur {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-}
 /*---------------header-page-acceuil------------------*/
 header {
   background-color: #579C87;
   height: 6rem;
-  text-align: center;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  width: 100%;
 }
 
 h1 {
@@ -264,15 +223,14 @@ a, a:hover {
 }
 
 /*-------------conteneur-page acceuil--------------*/
-.container {
-  width: 800px;
-  margin: auto;
-}
-
 main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+main.container {
+  width: 800px;
+  margin: auto;
 }
 
 /*-----------------footer-page-acceuil----------------*/
@@ -280,7 +238,7 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #579C87;
-  height: 3rem;
+  padding-bottom: 2rem;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -297,20 +255,66 @@ footer {
   text-decoration-line: none;
 }
 
-.vibreur:hover {
-  animation: shake 100ms infinite ease-in-out;
-}
-
-a:webkit-any-link {
-  cursor: pointer;
-}
-
-@keyframes shake {
-  from {
-    transform: rotate(6deg);
+/*------------media-queries-1000px----------------*/
+@media all and (max-width: 1000px) {
+  body {
+    margin: auto;
+    width: 100%;
   }
-  to {
-    transform: rotate(-6deg);
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main.conteneur {
+    width: 100%;
+  }
+
+  /*--------------------header--------------------*/
+  header {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  /*--------------------footer--------------------*/
+  footer {
+    display: flex;
+    height: 3rem;
+    text-align: center;
+  }
+  footer.load {
+    margin-bottom: 12rem;
+    margin-top: 6rem;
+  }
+}
+/*------------madia-queries-680px-------------*/
+@media all and (max-width: 680px) {
+  body {
+    margin: auto;
+    width: 100%;
+  }
+
+  .conteneur {
+    margin: auto;
+  }
+
+  header {
+    width: 100%;
+    margin: auto;
+  }
+
+  .menu1 {
+    margin-top: 10rem;
+  }
+
+  footer {
+    justify-content: space-evenly;
+  }
+
+  .vibreur {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 

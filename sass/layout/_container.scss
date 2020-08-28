@@ -1,14 +1,13 @@
 /*-------------conteneur-page acceuil--------------*/
 
-.container {
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  &.container {
     width: 800px;
     margin: auto;
   }
-
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+}
 
   
