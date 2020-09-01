@@ -326,8 +326,6 @@ footer {
           justify-content: space-between;
   background-color: #579C87;
   padding-bottom: 2rem;
-  position: fixed;
-  bottom: 0;
   width: 100%;
 }
 
@@ -361,11 +359,11 @@ footer {
   }
   main.conteneur {
     width: 100%;
+    margin: auto;
   }
   /*--------------------header--------------------*/
   header {
     width: 100%;
-    margin-bottom: 3rem;
   }
   /*--------------------footer--------------------*/
   footer {
@@ -393,9 +391,6 @@ footer {
   header {
     width: 100%;
     margin: auto;
-  }
-  .menu1 {
-    margin-top: 10rem;
   }
   footer {
     -webkit-box-pack: space-evenly;

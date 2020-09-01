@@ -6,37 +6,37 @@
 {
 
   body {
-      margin: auto;
-      width: 100%;
+       margin: auto;
+       width: 100%;
     }
 
   main {
-
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      &.conteneur {
-        width: 100%;
-      }
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       &.conteneur {
+            width: 100%;
+            margin: auto;
+        }
     }
 
   /*--------------------header--------------------*/
 
   header {
       width: 100%;
-      margin-bottom: 3rem;
     }
 
   /*--------------------footer--------------------*/
 
   footer {
-      display: flex;
-      height: 3rem;
-      text-align: center;
-      &.load {
-        margin-bottom: 12rem;
-        margin-top: 6rem;
-      }
+        display: flex;
+        margin: auto;
+        height: 3rem;
+        text-align: center;
+        &.load {
+            margin-bottom: 12rem;
+            margin-top: 6rem;
+        }
     }
 
 }
@@ -50,6 +50,7 @@
   body {
       margin: auto;
       width: 100%;
+      display: flex;
     }
 
   .conteneur {
@@ -61,12 +62,10 @@
       margin: auto;
     }
 
-  .menu1 {
-      margin-top: 10rem;
-    }
-
   footer {
       justify-content: space-evenly;
+      margin: auto;
+      width: 100%;
     }
 
   .vibreur {

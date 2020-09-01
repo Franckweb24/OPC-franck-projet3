@@ -85,7 +85,7 @@ body {
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /*-------------menu page accueil+h2+h3------------*/
@@ -112,6 +112,7 @@ h3 {
 .menu1 {
   background-color: #FDE0DC;
   color: black;
+  margin-top: 10rem;
 }
 
 .menu-cover_img {
@@ -132,6 +133,7 @@ h3 {
 /*------------------menu2-------------------*/
 .menu2 {
   background-color: #FEF5FE;
+  margin-top: 10rem;
 }
 
 .chic {
@@ -211,6 +213,8 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
+  position: fixed;
+  top: 0%;
 }
 
 h1 {
@@ -239,9 +243,9 @@ footer {
   justify-content: space-between;
   background-color: #579C87;
   padding-bottom: 2rem;
-  position: fixed;
-  bottom: 0;
   width: 100%;
+  position: fixed;
+  bottom: 0%;
 }
 
 .vibreur {
@@ -269,17 +273,18 @@ footer {
   }
   main.conteneur {
     width: 100%;
+    margin: auto;
   }
 
   /*--------------------header--------------------*/
   header {
     width: 100%;
-    margin-bottom: 3rem;
   }
 
   /*--------------------footer--------------------*/
   footer {
     display: flex;
+    margin: auto;
     height: 3rem;
     text-align: center;
   }
@@ -293,6 +298,7 @@ footer {
   body {
     margin: auto;
     width: 100%;
+    display: flex;
   }
 
   .conteneur {
@@ -304,12 +310,10 @@ footer {
     margin: auto;
   }
 
-  .menu1 {
-    margin-top: 10rem;
-  }
-
   footer {
     justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
   }
 
   .vibreur {
