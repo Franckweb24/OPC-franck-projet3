@@ -181,6 +181,7 @@ h3 {
 .menu1 {
   background-color: #FDE0DC;
   color: black;
+  margin-top: 10rem;
 }
 
 .menu-cover_img {
@@ -202,6 +203,7 @@ h3 {
 /*------------------menu2-------------------*/
 .menu2 {
   background-color: #FEF5FE;
+  margin-top: 10rem;
 }
 
 .chic {
@@ -288,6 +290,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  position: relative;
 }
 
 h1 {
@@ -327,6 +330,8 @@ footer {
   background-color: #579C87;
   padding-bottom: 2rem;
   width: 100%;
+  position: fixed;
+  bottom: 0%;
 }
 
 .vibreur {
@@ -345,7 +350,7 @@ footer {
 @media all and (max-width: 1000px) {
   body {
     margin: auto;
-    width: 100%;
+    width: 800px;
   }
   main {
     display: -webkit-box;
@@ -370,6 +375,7 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: auto;
     height: 3rem;
     text-align: center;
   }
@@ -384,18 +390,27 @@ footer {
   body {
     margin: auto;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .conteneur {
     margin: auto;
   }
   header {
-    width: 100%;
     margin: auto;
+    min-width: 352px;
+    position: absolute;
+  }
+  /*--------------------menu-2--------------------*/
+  .menu2 {
+    margin-top: 2rem;
   }
   footer {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    margin: auto;
   }
   .vibreur {
     padding-left: 2rem;

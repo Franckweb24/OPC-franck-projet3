@@ -85,7 +85,7 @@ body {
 }
 
 html {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /*-------------menu page accueil+h2+h3------------*/
@@ -213,8 +213,7 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
-  position: fixed;
-  top: 0%;
+  position: relative;
 }
 
 h1 {
@@ -263,7 +262,7 @@ footer {
 @media all and (max-width: 1000px) {
   body {
     margin: auto;
-    width: 100%;
+    width: 800px;
   }
 
   main {
@@ -306,14 +305,19 @@ footer {
   }
 
   header {
-    width: 100%;
     margin: auto;
+    min-width: 352px;
+    position: absolute;
+  }
+
+  /*--------------------menu-2--------------------*/
+  .menu2 {
+    margin-top: 2rem;
   }
 
   footer {
     justify-content: space-evenly;
     margin: auto;
-    width: 100%;
   }
 
   .vibreur {
