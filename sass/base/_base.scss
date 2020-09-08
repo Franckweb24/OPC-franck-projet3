@@ -45,7 +45,7 @@ h3 {
 
 .note {
   font-family: 'Devonshire', cursive;
-  font-size: 2rem;
+  font-size: 2.4rem;
   @include gradient-note;
 }
 
@@ -127,5 +127,40 @@ h3 {
   display: inline-block;
 }
 
+/*----------------menu-la-note-enchantée--------------*/
 
+.menu-note_img {
+  padding-top: 2rem;
+  width: 4rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 1rem;
+}
+
+.note-fin {
+  font-size: 2rem;
+  font-family: 'Devonshire', cursive;
+}
+
+.menu-note-bas {
+  width: 2.5rem;
+}
+
+.icone-bas {
+  display: inline-block;
+  
+}
+
+.icone-bas-titre {
+  display: inline-block;
+}
+
+.mouvement-final {
+  text-align: left;
+}
 

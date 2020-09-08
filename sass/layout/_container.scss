@@ -1,4 +1,4 @@
-/*-------------conteneur-page acceuil--------------*/
+/*-------------conteneur-page-acceuil--------------*/
 
 main {
   display: flex;
@@ -10,4 +10,16 @@ main {
   }
 }
 
+/*-------------menu-la-note-enchantée---------------*/
+
+.container-note {
+  margin: auto;
+  margin-top: 2rem;
+  width: 700px;
+  box-shadow: 0 0 0.6rem $box-shad;
+  background-color: $color-m1;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10rem;
+}
   
