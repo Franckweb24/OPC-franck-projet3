@@ -134,12 +134,44 @@ h3 {
   width: 4rem;
 }
 
+.enchantee {
+  font-size: 1.5rem;
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+}
+
+.line-prelude {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.line-left-note {
+  width: 12rem;
+}
+
+.line-right-note {
+  width: 12rem;
+  
+}
+
 ul {
   list-style: none;
+  text-align: left;
 }
 
 li {
   padding-bottom: 1rem;
+  font-family: 'Kalam', cursive;
+  font-size: 1.1rem;
+}
+
+.food {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  padding-right: 2rem;
 }
 
 .note-fin {
@@ -147,17 +179,18 @@ li {
   font-family: 'Devonshire', cursive;
 }
 
+.icone-bas-titre {
+  display: flex;
+  margin: auto;
+  align-items: baseline;
+}
+
+.titre-bas {
+  padding-left: 0.4rem;
+}
+
 .menu-note-bas {
   width: 2.5rem;
-}
-
-.icone-bas {
-  display: inline-block;
-  
-}
-
-.icone-bas-titre {
-  display: inline-block;
 }
 
 .mouvement-final {
