@@ -140,18 +140,23 @@ h3 {
   font-weight: 400;
 }
 
+.underline {
+  flex-direction: column;
+}
+
 .line-prelude {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .line-left-note {
   width: 12rem;
+  padding-left: 2rem;
 }
 
 .line-right-note {
   width: 12rem;
-  
+  padding-right: 2rem;
 }
 
 ul {
@@ -171,7 +176,7 @@ li {
 }
 
 .price {
-  padding-right: 2rem;
+  padding-right: 2.5rem;
 }
 
 .note-fin {
