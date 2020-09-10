@@ -99,6 +99,43 @@
     transition: transform 500ms;
   }
 
+  /*----------------animation-le-chic-a-la-francaise-----------------*/
+  
+  .appetit {
+    cursor: pointer;
+      &:hover + .underline-chic-1 {
+        transform: scale(1);
+      }
+  }
+
+  .underline-chic-1 {
+    @include underline-base;
+    background-color: $color-appetit;
+  }
+
+  .papilles {
+    cursor: pointer;
+    &:hover + .underline-chic-2 {
+      transform: scale(1);
+    }
+  }
+
+  .underline-chic-2 {
+    @include underline-base;
+    background-color: $color-papilles;
+  }
+
+  .sucrées {
+    cursor: pointer;
+    &:hover + .underline-chic-3 {
+      transform: scale(1);
+    }
+  }
+
+  .underline-chic-3 {
+    @include underline-base;
+    background-color: $color-sucrees;
+  }
   
 
   

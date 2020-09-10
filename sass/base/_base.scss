@@ -187,10 +187,6 @@ li {
   align-items: baseline;
 }
 
-.titre-bas {
-  padding-left: 0.4rem;
-}
-
 .menu-note-bas {
   width: 2.5rem;
 }
@@ -198,4 +194,40 @@ li {
 .mouvement-final {
   text-align: left;
 }
+
+/*------------------menu-le-chic-a-la-francaise-------------------*/
+
+#h2-menu-chic {
+  font-size: 2.2rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+.appetit {
+  color: $color-appetit;
+}
+
+.papilles {
+  color: $color-papilles;
+}
+
+.sucrées {
+  color: $color-sucrees;
+}
+
+.li-chic {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: bold;
+}
+
+.gourmendises-sucrees {
+  margin-bottom: 5rem;
+}
+
+#font-h4-chic {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
 
