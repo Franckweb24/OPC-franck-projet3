@@ -25,4 +25,12 @@ main {
   background-color: $color-m2;
 }
 
+/*-----------menu-le-délice-des-papilles--------------*/
+
+.container-délice {
+  @include container-menu;
+  background-color: $color-m3;
+}
+
+
   

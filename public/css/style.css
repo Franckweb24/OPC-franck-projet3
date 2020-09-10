@@ -221,7 +221,7 @@ h3 {
 
 /*------------------menu3-------------------*/
 .menu3 {
-  background-color: #F9F9F9;
+  background-color: #EDEFEF;
 }
 
 .delice {
@@ -430,6 +430,18 @@ main.container {
   text-align: center;
   margin-bottom: 10rem;
   background-color: #FEF5FE;
+}
+
+/*-----------menu-le-délice-des-papilles--------------*/
+.container-délice {
+  margin: auto;
+  margin-top: 2rem;
+  width: 700px;
+  box-shadow: 0 0 0.6rem #C6BDC6;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10rem;
+  background-color: #EDEFEF;
 }
 
 /*-----------------footer-page-acceuil----------------*/
