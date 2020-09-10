@@ -82,3 +82,43 @@
 
 }
 
+/*-------------menu-la-note-enchantée-responsive------------*/
+
+@media all and (max-width: 680px)
+
+{
+  body {
+    display: flex;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .container-note {
+    display: flex;
+    margin-top: 10rem;
+  }
+
+  ul {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .line-left-note {
+    width: 5rem;
+  }
+
+  .line-right-note {
+    width: 5rem;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+}
+
+
+
