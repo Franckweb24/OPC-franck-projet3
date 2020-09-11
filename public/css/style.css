@@ -108,7 +108,6 @@ a:webkit-any-link {
 .underline-chic-1 {
   width: 100%;
   height: 0.2rem;
-  border-radius: 30%;
   transform-origin: 0% 50%;
   transform: scale(0);
   transition: transform 500ms;
@@ -125,7 +124,6 @@ a:webkit-any-link {
 .underline-chic-2 {
   width: 100%;
   height: 0.2rem;
-  border-radius: 30%;
   transform-origin: 0% 50%;
   transform: scale(0);
   transition: transform 500ms;
@@ -142,7 +140,6 @@ a:webkit-any-link {
 .underline-chic-3 {
   width: 100%;
   height: 0.2rem;
-  border-radius: 30%;
   transform-origin: 0% 50%;
   transform: scale(0);
   transition: transform 500ms;
@@ -160,7 +157,6 @@ a:webkit-any-link {
 .underline-délice-1 {
   width: 100%;
   height: 0.2rem;
-  border-radius: 30%;
   transform-origin: 0% 50%;
   transform: scale(0);
   transition: transform 500ms;
@@ -177,7 +173,6 @@ a:webkit-any-link {
 .underline-délice-2 {
   width: 100%;
   height: 0.2rem;
-  border-radius: 30%;
   transform-origin: 0% 50%;
   transform: scale(0);
   transition: transform 500ms;
@@ -194,11 +189,27 @@ a:webkit-any-link {
 .underline-délice-3 {
   width: 100%;
   height: 0.2rem;
-  border-radius: 30%;
   transform-origin: 0% 50%;
   transform: scale(0);
   transition: transform 500ms;
   background-color: #229DF9;
+}
+
+/*----------------animation-la-palette-de-goût-----------------*/
+.goût {
+  cursor: pointer;
+}
+.goût:hover + .underline-palette {
+  transform: scale(1);
+}
+
+.underline-palette {
+  width: 100%;
+  height: 0.2rem;
+  transform-origin: 0% 50%;
+  transform: scale(0);
+  transition: transform 500ms;
+  background-color: #B6F87A;
 }
 
 /*----------------body----------------*/
@@ -385,11 +396,12 @@ li {
 .icone-bas-titre {
   display: flex;
   margin: auto;
-  align-items: baseline;
+  align-items: center;
 }
 
 .menu-note-bas {
   width: 2.5rem;
+  padding-right: 1rem;
 }
 
 .mouvement-final {
@@ -446,9 +458,24 @@ li {
   font-weight: 300;
 }
 
-.delice {
-  font-size: 1.8rem;
+#h2-délice {
   font-family: "Kalam", cursive;
+  font-size: 1.8rem;
+}
+
+.bien-commencer {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/*----------------menu-la-palette-du-goût------------------*/
+.goût {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.li-goût {
+  font-size: 1rem;
 }
 
 /*---------------header-page-acceuil------------------*/
@@ -518,6 +545,18 @@ main.container {
   font-family: "Kalam", cursive;
 }
 
+.container-palette {
+  margin: auto;
+  margin-top: 2rem;
+  width: 700px;
+  box-shadow: 0 0 0.6rem #C6BDC6;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10rem;
+  background-color: #FDFFFD;
+  font-family: "Kalam", cursive;
+}
+
 /*-----------------footer-page-acceuil----------------*/
 footer {
   display: flex;
@@ -544,7 +583,7 @@ footer {
 @media all and (max-width: 1000px) {
   body {
     margin: auto;
-    width: 800px;
+    width: auto;
   }
 
   main {

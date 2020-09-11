@@ -184,11 +184,12 @@ li {
 .icone-bas-titre {
   display: flex;
   margin: auto;
-  align-items: baseline;
+  align-items: center;
 }
 
 .menu-note-bas {
   width: 2.5rem;
+  padding-right: 1rem;
 }
 
 .mouvement-final {
@@ -247,9 +248,24 @@ li {
   font-weight: 300;
 }
 
-.delice {
-  font-size: 1.8rem;
+#h2-délice {
   font-family: 'Kalam', cursive;
+  font-size: 1.8rem;
 }
 
+.bien-commencer {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/*----------------menu-la-palette-du-goût------------------*/
+
+.goût {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.li-goût {
+  font-size: 1rem;
+}
 

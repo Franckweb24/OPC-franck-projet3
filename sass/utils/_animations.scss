@@ -175,5 +175,20 @@
     background-color: $color-delice-3;
   }
 
+  /*----------------animation-la-palette-de-goût-----------------*/
+  
+  .goût {
+    cursor: pointer;
+    &:hover + .underline-palette {
+      transform: scale(1);
+    }
+  }
+
+  .underline-palette {
+    @include underline-base;
+    background-color: $color-underline-palette;
+  }
+
+
 
   

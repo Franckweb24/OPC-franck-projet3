@@ -33,5 +33,11 @@ main {
   font-family: 'Kalam', cursive;
 }
 
+.container-palette {
+  @include container-menu;
+  background-color: $color-m4;
+  font-family: 'Kalam', cursive;
+}
+
 
   
