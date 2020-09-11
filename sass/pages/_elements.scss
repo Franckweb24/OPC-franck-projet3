@@ -19,13 +19,19 @@ article {
   h3 {
     font-size: 2rem;
   }
+
+  .mouv {
+    width: 18rem;
+    height: 25rem;
+    padding-top: 5rem;
+  }
   
   /*-------------------menu1------------------*/
   
   .menu1 {
     background-color: $color-m1;
     color: black;
-    margin-top: 10rem;
+
   }
   
   .menu-cover_img {
@@ -46,7 +52,6 @@ article {
   
   .menu2 {
     background-color: $color-m2;
-    margin-top: 10rem;
   }
   
   .chic {

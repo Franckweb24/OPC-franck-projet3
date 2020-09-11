@@ -1,13 +1,13 @@
   /*-------------page-acceuil-------------*/
 
-.link:hover {
+  .link:hover {
     transform: scale(1);
     opacity: 0.5;
   }
 
   /*--------------menu1-2-3-4-zoom------------*/
 
-.mouv {
+  .mouv {
     @include zoom;
   }
 

@@ -15,7 +15,6 @@ main {
 .container-note {
   @include container-menu;
   background-color: $color-m1;
-
 }
 
 /*-----------menu-le-chic-a-la-francaise--------------*/
@@ -30,13 +29,11 @@ main {
 .container-délice {
   @include container-menu;
   background-color: $color-m3;
-  font-family: 'Kalam', cursive;
 }
 
 .container-palette {
   @include container-menu;
   background-color: $color-m4;
-  font-family: 'Kalam', cursive;
 }
 
 

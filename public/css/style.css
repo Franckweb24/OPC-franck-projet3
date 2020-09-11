@@ -235,6 +235,8 @@ header {
 h1 {
   font-size: 3rem;
   color: #fcca46;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
 }
 
 a, a:hover {
@@ -286,7 +288,6 @@ main.container {
   text-align: center;
   margin-bottom: 10rem;
   background-color: #EDEFEF;
-  font-family: "Kalam", cursive;
 }
 
 .container-palette {
@@ -298,7 +299,6 @@ main.container {
   text-align: center;
   margin-bottom: 10rem;
   background-color: #FDFFFD;
-  font-family: "Kalam", cursive;
 }
 
 /*-----------------footer-page-acceuil----------------*/
@@ -443,11 +443,16 @@ h3 {
   font-size: 2rem;
 }
 
+.mouv {
+  width: 18rem;
+  height: 25rem;
+  padding-top: 5rem;
+}
+
 /*-------------------menu1------------------*/
 .menu1 {
   background-color: #FDE0DC;
   color: black;
-  margin-top: 10rem;
 }
 
 .menu-cover_img {
@@ -468,7 +473,6 @@ h3 {
 /*------------------menu2-------------------*/
 .menu2 {
   background-color: #FEF5FE;
-  margin-top: 10rem;
 }
 
 .chic {
