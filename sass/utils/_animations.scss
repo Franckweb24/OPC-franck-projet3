@@ -137,5 +137,43 @@
     background-color: $color-sucrees;
   }
   
+/*----------------animation-le-délice-des-papilles-----------------*/
+  
+  .commencer {
+    cursor: pointer;
+    &:hover + .underline-délice-1 {
+      transform: scale(1);
+    }
+  }
+
+  .underline-délice-1 {
+    @include underline-base;
+    background-color: $color-delice-1;
+  }
+
+  .continuer {
+    cursor: pointer;
+    &:hover + .underline-délice-2 {
+      transform: scale(1);
+    }
+  }
+
+  .underline-délice-2 {
+    @include underline-base;
+    background-color: $color-delice-2;
+  }
+
+  .terminer {
+    cursor: pointer;
+    &:hover + .underline-délice-3 {
+      transform: scale(1);
+    }
+  }
+
+  .underline-délice-3 {
+    @include underline-base;
+    background-color: $color-delice-3;
+  }
+
 
   

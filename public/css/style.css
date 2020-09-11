@@ -149,6 +149,58 @@ a:webkit-any-link {
   background-color: #6B53C9;
 }
 
+/*----------------animation-le-délice-des-papilles-----------------*/
+.commencer {
+  cursor: pointer;
+}
+.commencer:hover + .underline-délice-1 {
+  transform: scale(1);
+}
+
+.underline-délice-1 {
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 30%;
+  transform-origin: 0% 50%;
+  transform: scale(0);
+  transition: transform 500ms;
+  background-color: #0228DD;
+}
+
+.continuer {
+  cursor: pointer;
+}
+.continuer:hover + .underline-délice-2 {
+  transform: scale(1);
+}
+
+.underline-délice-2 {
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 30%;
+  transform-origin: 0% 50%;
+  transform: scale(0);
+  transition: transform 500ms;
+  background-color: #0670F3;
+}
+
+.terminer {
+  cursor: pointer;
+}
+.terminer:hover + .underline-délice-3 {
+  transform: scale(1);
+}
+
+.underline-délice-3 {
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 30%;
+  transform-origin: 0% 50%;
+  transform: scale(0);
+  transition: transform 500ms;
+  background-color: #229DF9;
+}
+
 /*----------------body----------------*/
 body {
   margin: auto;
@@ -378,6 +430,27 @@ li {
   font-size: 1.3rem;
 }
 
+/*---------------menu-le-délice-des-papilles-----------------*/
+.commencer {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.continuer {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.terminer {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.delice {
+  font-size: 1.8rem;
+  font-family: "Kalam", cursive;
+}
+
 /*---------------header-page-acceuil------------------*/
 header {
   background-color: #579C87;
@@ -442,6 +515,7 @@ main.container {
   text-align: center;
   margin-bottom: 10rem;
   background-color: #EDEFEF;
+  font-family: "Kalam", cursive;
 }
 
 /*-----------------footer-page-acceuil----------------*/
