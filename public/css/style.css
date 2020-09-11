@@ -222,6 +222,207 @@ html {
   font-size: 16px;
 }
 
+/*---------------header-page-acceuil------------------*/
+header {
+  background-color: #579C87;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fcca46;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+/*-------------conteneur-page-acceuil--------------*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main.container {
+  width: 800px;
+  margin: auto;
+}
+
+/*-------------menu-la-note-enchantée---------------*/
+.container-note {
+  margin: auto;
+  margin-top: 2rem;
+  width: 700px;
+  box-shadow: 0 0 0.6rem #C6BDC6;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10rem;
+  background-color: #FDE0DC;
+}
+
+/*-----------menu-le-chic-a-la-francaise--------------*/
+.container-chic {
+  margin: auto;
+  margin-top: 2rem;
+  width: 700px;
+  box-shadow: 0 0 0.6rem #C6BDC6;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10rem;
+  background-color: #FEF5FE;
+}
+
+/*-----------menu-le-délice-des-papilles--------------*/
+.container-délice {
+  margin: auto;
+  margin-top: 2rem;
+  width: 700px;
+  box-shadow: 0 0 0.6rem #C6BDC6;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10rem;
+  background-color: #EDEFEF;
+  font-family: "Kalam", cursive;
+}
+
+.container-palette {
+  margin: auto;
+  margin-top: 2rem;
+  width: 700px;
+  box-shadow: 0 0 0.6rem #C6BDC6;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10rem;
+  background-color: #FDFFFD;
+  font-family: "Kalam", cursive;
+}
+
+/*-----------------footer-page-acceuil----------------*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #579C87;
+  padding-bottom: 2rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+}
+
+.vibreur {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+  color: #fcca46;
+  font-size: 1.4rem;
+  padding-top: 1.5rem;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+/*------------media-queries-1000px----------------*/
+@media all and (max-width: 1000px) {
+  body {
+    margin: auto;
+    width: auto;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main.conteneur {
+    width: 100%;
+    margin: auto;
+  }
+
+  /*--------------------header--------------------*/
+  header {
+    width: 100%;
+  }
+
+  /*--------------------footer--------------------*/
+  footer {
+    display: flex;
+    margin: auto;
+    height: 3rem;
+    text-align: center;
+  }
+  footer.load {
+    margin-bottom: 12rem;
+    margin-top: 6rem;
+  }
+}
+/*------------madia-queries-680px-------------*/
+@media all and (max-width: 680px) {
+  body {
+    margin: auto;
+    width: 100%;
+    display: flex;
+  }
+
+  .conteneur {
+    margin: auto;
+  }
+
+  header {
+    margin: auto;
+    min-width: 352px;
+    position: absolute;
+  }
+
+  /*--------------------menu-2--------------------*/
+  .menu2 {
+    margin-top: 2rem;
+  }
+
+  footer {
+    justify-content: space-evenly;
+    margin: auto;
+  }
+
+  .vibreur {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+/*-------------menu-la-note-enchantée-responsive------------*/
+@media all and (max-width: 680px) {
+  body {
+    display: flex;
+    margin: auto;
+    width: 100%;
+  }
+
+  .container-note {
+    display: flex;
+    margin-top: 10rem;
+  }
+
+  ul {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .line-left-note {
+    width: 5rem;
+  }
+
+  .line-right-note {
+    width: 5rem;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
 /*-------------menu page accueil+h2+h3------------*/
 article {
   width: 18rem;
@@ -476,208 +677,6 @@ li {
 
 .li-goût {
   font-size: 1rem;
-}
-
-/*---------------header-page-acceuil------------------*/
-header {
-  background-color: #579C87;
-  height: 6rem;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-}
-
-h1 {
-  font-size: 3rem;
-  color: #fcca46;
-}
-
-a, a:hover {
-  text-decoration: none;
-}
-
-/*-------------conteneur-page-acceuil--------------*/
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-main.container {
-  width: 800px;
-  margin: auto;
-}
-
-/*-------------menu-la-note-enchantée---------------*/
-.container-note {
-  margin: auto;
-  margin-top: 2rem;
-  width: 700px;
-  box-shadow: 0 0 0.6rem #C6BDC6;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 10rem;
-  background-color: #FDE0DC;
-}
-
-/*-----------menu-le-chic-a-la-francaise--------------*/
-.container-chic {
-  margin: auto;
-  margin-top: 2rem;
-  width: 700px;
-  box-shadow: 0 0 0.6rem #C6BDC6;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 10rem;
-  background-color: #FEF5FE;
-}
-
-/*-----------menu-le-délice-des-papilles--------------*/
-.container-délice {
-  margin: auto;
-  margin-top: 2rem;
-  width: 700px;
-  box-shadow: 0 0 0.6rem #C6BDC6;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 10rem;
-  background-color: #EDEFEF;
-  font-family: "Kalam", cursive;
-}
-
-.container-palette {
-  margin: auto;
-  margin-top: 2rem;
-  width: 700px;
-  box-shadow: 0 0 0.6rem #C6BDC6;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 10rem;
-  background-color: #FDFFFD;
-  font-family: "Kalam", cursive;
-}
-
-/*-----------------footer-page-acceuil----------------*/
-footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: #579C87;
-  padding-bottom: 2rem;
-  width: 100%;
-  position: fixed;
-  bottom: 0%;
-}
-
-.vibreur {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  text-align: center;
-  color: #fcca46;
-  font-size: 1.4rem;
-  padding-top: 1.5rem;
-  text-decoration: none;
-  text-decoration-line: none;
-}
-
-/*------------media-queries-1000px----------------*/
-@media all and (max-width: 1000px) {
-  body {
-    margin: auto;
-    width: auto;
-  }
-
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  main.conteneur {
-    width: 100%;
-    margin: auto;
-  }
-
-  /*--------------------header--------------------*/
-  header {
-    width: 100%;
-  }
-
-  /*--------------------footer--------------------*/
-  footer {
-    display: flex;
-    margin: auto;
-    height: 3rem;
-    text-align: center;
-  }
-  footer.load {
-    margin-bottom: 12rem;
-    margin-top: 6rem;
-  }
-}
-/*------------madia-queries-680px-------------*/
-@media all and (max-width: 680px) {
-  body {
-    margin: auto;
-    width: 100%;
-    display: flex;
-  }
-
-  .conteneur {
-    margin: auto;
-  }
-
-  header {
-    margin: auto;
-    min-width: 352px;
-    position: absolute;
-  }
-
-  /*--------------------menu-2--------------------*/
-  .menu2 {
-    margin-top: 2rem;
-  }
-
-  footer {
-    justify-content: space-evenly;
-    margin: auto;
-  }
-
-  .vibreur {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-}
-/*-------------menu-la-note-enchantée-responsive------------*/
-@media all and (max-width: 680px) {
-  body {
-    display: flex;
-    margin: auto;
-    width: 100%;
-  }
-
-  .container-note {
-    display: flex;
-    margin-top: 10rem;
-  }
-
-  ul {
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-  }
-
-  .line-left-note {
-    width: 5rem;
-  }
-
-  .line-right-note {
-    width: 5rem;
-  }
-
-  .price {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
