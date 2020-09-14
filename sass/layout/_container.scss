@@ -30,6 +30,7 @@ main {
 .container-délice {
   @include container-menu;
   background-color: $color-m3;
+  margin-top: 6rem;
 }
 
 /*-------------menu-la-palette-du-goût----------------*/

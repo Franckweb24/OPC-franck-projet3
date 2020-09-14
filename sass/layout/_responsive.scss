@@ -23,8 +23,15 @@
   /*--------------------header--------------------*/
 
   header {
-    width: 100%;
     margin: auto;
+    width: 100%;
+  }
+
+  /*-----------------prochainement----------------*/
+
+  .load {
+    margin-bottom: 12rem;
+    margin-top: 6rem;
   }
 
   /*--------------------footer--------------------*/
@@ -32,14 +39,8 @@
   footer {
     display: flex;
     margin: auto;
-    height: 3rem;
     text-align: center;
-    &.load {
-        margin-bottom: 12rem;
-        margin-top: 6rem;
-    }
   }
-
 }
 
 /*------------madia-queries-680px-------------*/
@@ -51,24 +52,24 @@
   body {
     margin: auto;
     width: 100%;
-    display: flex;
   }
 
   .conteneur {
     margin: auto;
   }
 
-  header {
-    margin: auto;
-    min-width: 350px;
-    position: absolute;
+  .container-délice {
+    margin-top: 10rem;
   }
 
+  .container-palette {
+    margin-top: 10rem;
+  }
 
-  /*--------------------menu-2--------------------*/
-
-  .menu2 {
-    margin-top: 2rem;
+  header {
+    display: flex;
+    margin: auto;
+    position: absolute;
   }
 
   footer {
@@ -76,50 +77,93 @@
     margin: auto;
   }
 
+  /*--------------------menu-2--------------------*/
+
+  .menu2 {
+    margin-top: 2rem;
+  }
+
   .vibreur {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
-}
+  /*-------------menu-la-note-enchantée-responsive------------*/
 
-/*-------------menu-la-note-enchantée-responsive------------*/
-
-@media all and (max-width: 680px)
-
-{
   body {
     display: flex;
     margin: auto;
-    width: 100%;
-  }
+    }
   
   .container-note {
     display: flex;
-    margin-top: 10rem;
+    margin-top: 10rem; 
   }
 
   ul {
     display: flex;
     margin: auto;
     flex-direction: column;
+    margin-left: 0rem;
+    text-align: center;
+  }
+
+  .food {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+
+  .line-prelude {
+    margin-bottom: 3rem;
   }
 
   .line-left-note {
-    width: 5rem;
+    width: 1rem;
   }
 
   .line-right-note {
-    width: 5rem;
+    width: 1rem;
   }
 
   .price {
     display: flex;
-    flex-direction: column;
+    margin: auto;
+    padding-left: 3rem;
+  }
+
+  .mouvement {
+    padding-left: 0rem;
+  }
+
+  li {
+    text-align: center;
     margin: auto;
   }
 
+  /*----------------le-chic-a-la-francaise-------------*/
+
+  .container-chic {
+    margin-top: 10rem;
+  }
+
+  .appetit {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding-left: 0rem;
+  }
+
+  .sucrées {
+    padding-left: 0rem;
+  }
+
+
 }
+
+
+
 
 
 
