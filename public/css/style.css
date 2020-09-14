@@ -704,20 +704,23 @@ li {
 .commencer {
   font-size: 1.4rem;
   font-weight: 300;
+  font-family: "Kalam", cursive;
 }
 
 .continuer {
   font-size: 1.4rem;
   font-weight: 300;
+  font-family: "Kalam", cursive;
 }
 
 .terminer {
   font-size: 1.4rem;
   font-weight: 300;
+  font-family: "Kalam", cursive;
 }
 
 #h2-délice {
-  font-family: "Kalam", cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 1.8rem;
 }
 
