@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*-------------page-acceuil-------------*/
-.link:hover {
+article:hover {
   transform: scale(1);
   opacity: 0.5;
 }
@@ -252,9 +252,10 @@ main {
 main.container {
   width: 800px;
   margin: auto;
+  margin-top: 6rem;
 }
 
-/*-------------menu-la-note-enchantée---------------*/
+/*--------------menu-la-note-enchantée----------------*/
 .container-note {
   margin: auto;
   margin-top: 2rem;
@@ -290,6 +291,7 @@ main.container {
   background-color: #EDEFEF;
 }
 
+/*-------------menu-la-palette-du-goût----------------*/
 .container-palette {
   margin: auto;
   margin-top: 2rem;
@@ -343,6 +345,7 @@ footer {
   /*--------------------header--------------------*/
   header {
     width: 100%;
+    margin: auto;
   }
 
   /*--------------------footer--------------------*/
@@ -371,7 +374,7 @@ footer {
 
   header {
     margin: auto;
-    min-width: 352px;
+    min-width: 350px;
     position: absolute;
   }
 
@@ -427,7 +430,6 @@ footer {
 article {
   width: 18rem;
   height: 25rem;
-  margin: 2rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -439,6 +441,10 @@ h2 {
   font-size: 1.4rem;
 }
 
+.page-menu {
+  margin: 2rem;
+}
+
 h3 {
   font-size: 2rem;
 }
@@ -446,16 +452,15 @@ h3 {
 .mouv {
   width: 18rem;
   height: 25rem;
-  padding-top: 5rem;
+  padding-top: 7rem;
 }
 
 /*-------------------menu1------------------*/
 .menu1 {
   background-color: #FDE0DC;
-  color: black;
+  color: #000000;
 }
-
-.menu-cover_img {
+.menu1 .menu-cover_img {
   width: 3rem;
 }
 
@@ -464,10 +469,12 @@ h3 {
   font-size: 2.4rem;
   background-image: linear-gradient(0.25, #F15861, #F8A183);
   -webkit-background-clip: text;
+  margin: 0;
 }
 
 .h3-m1 {
   font-family: "Kalam", cursive;
+  margin: 0rem;
 }
 
 /*------------------menu2-------------------*/
@@ -485,6 +492,7 @@ h3 {
 .h3-m2 {
   font-family: "Aref Ruqaa", serif;
   color: #C77412;
+  margin: 0;
 }
 
 /*------------------menu3-------------------*/
@@ -504,6 +512,7 @@ h3 {
   font-family: "Kalam", cursive;
   font-weight: 300;
   color: #0887FB;
+  margin: 0;
 }
 
 /*------------------menu4------------------*/
@@ -519,6 +528,7 @@ h3 {
   font-family: "kalam", cursive;
   font-weight: 300;
   color: #72BF56;
+  margin: 0;
 }
 
 /*-----------section prochainement----------*/

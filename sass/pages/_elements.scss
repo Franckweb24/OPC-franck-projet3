@@ -4,16 +4,19 @@
 article {
     width: 18rem;
     height: 25rem;
-    margin: 2rem;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     box-shadow: 0 0 0.6rem $box-shad;
   }
-  
+
   h2 {
     font-size: 1.4rem;
+  }
+
+  .page-menu {
+    margin: 2rem;
   }
   
   h3 {
@@ -23,29 +26,29 @@ article {
   .mouv {
     width: 18rem;
     height: 25rem;
-    padding-top: 5rem;
+    padding-top: 7rem;
   }
   
   /*-------------------menu1------------------*/
   
   .menu1 {
     background-color: $color-m1;
-    color: black;
+    color: $color-black;
+    & .menu-cover_img {
+      width: 3rem;
+    }
+  }
 
-  }
-  
-  .menu-cover_img {
-    width: 3rem;
-  }
-  
   .note {
     font-family: 'Devonshire', cursive;
     font-size: 2.4rem;
     @include gradient-note;
+    margin: 0;
   }
   
   .h3-m1 {
     font-family: 'Kalam', cursive;
+    margin: 0rem;
   }
   
   /*------------------menu2-------------------*/
@@ -62,6 +65,7 @@ article {
   .h3-m2 {
     font-family: 'Aref Ruqaa', serif;
     color: #C77412;
+    margin: 0;
   }
   
   /*------------------menu3-------------------*/
@@ -80,6 +84,7 @@ article {
     font-family: 'Kalam', cursive;
     font-weight: 300;
     color: $color-h3m3;
+    margin: 0;
   }
   
   /*------------------menu4------------------*/
@@ -94,6 +99,7 @@ article {
     font-family: "kalam", cursive;
     font-weight: 300;
     color: $color-h3m4;
+    margin: 0;
   }
   
   /*-----------section prochainement----------*/

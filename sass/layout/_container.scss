@@ -7,10 +7,11 @@ main {
   &.container {
     width: 800px;
     margin: auto;
+    margin-top: 6rem;
   }
 }
 
-/*-------------menu-la-note-enchantée---------------*/
+/*--------------menu-la-note-enchantée----------------*/
 
 .container-note {
   @include container-menu;
@@ -30,6 +31,8 @@ main {
   @include container-menu;
   background-color: $color-m3;
 }
+
+/*-------------menu-la-palette-du-goût----------------*/
 
 .container-palette {
   @include container-menu;
