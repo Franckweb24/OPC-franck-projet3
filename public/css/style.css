@@ -67,7 +67,7 @@ article:hover {
   animation: shake 100ms infinite ease-in-out;
 }
 
-a:webkit-any-link {
+a:hover {
   cursor: pointer;
 }
 
