@@ -42,7 +42,6 @@ article {
   .note {
     font-family: 'Devonshire', cursive;
     font-size: 2.4rem;
-    @include gradient-note;
     margin: 0;
   }
   
