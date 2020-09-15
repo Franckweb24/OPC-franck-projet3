@@ -352,7 +352,6 @@ footer {
   /*-----------------prochainement----------------*/
   .load {
     margin-bottom: 12rem;
-    margin-top: 6rem;
   }
 
   /*--------------------footer--------------------*/
@@ -638,6 +637,8 @@ h3 {
 
 /*-----------section prochainement----------*/
 .load {
+  display: flex;
+  flex-direction: row;
   background-color: #579C87;
   width: 20rem;
   height: 4rem;
@@ -649,15 +650,16 @@ h3 {
 }
 
 .loading {
-  margin: auto;
-  font-size: 1.8rem;
+  padding-left: 1rem;
+  font-size: 1.6rem;
   color: #fcca46;
-  font-weight: 400;
-  display: inline-block;
+  font-weight: 300;
 }
 
 .anim-point {
-  display: inline-block;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0.5rem;
 }
 
 /*----------------menu-la-note-enchantée--------------*/

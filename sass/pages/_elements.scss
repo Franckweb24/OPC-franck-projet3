@@ -104,6 +104,8 @@ article {
   /*-----------section prochainement----------*/
   
   .load {
+    display: flex;
+    flex-direction: row;
     background-color: $color-bando;
     width: 20rem;
     height: 4rem;
@@ -115,15 +117,16 @@ article {
   }
   
   .loading {
-    margin: auto;
-    font-size: 1.8rem;
+    padding-left: 1rem;
+    font-size: 1.6rem;
     color: $color-title;
-    font-weight: 400;
-    display: inline-block;
+    font-weight: 300;
   }
   
   .anim-point {
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0.5rem;
   }
   
   /*----------------menu-la-note-enchantée--------------*/
