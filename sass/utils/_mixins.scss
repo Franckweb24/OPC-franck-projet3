@@ -26,11 +26,11 @@
 
 @mixin container-menu{
     margin: auto;
-    margin-top: 2rem;
     width: 700px;
     box-shadow: 0 0 0.6rem $box-shad;
     flex-direction: column;
     text-align: center;
+    margin-top: 6rem;
     margin-bottom: 10rem;
 }
 @mixin underline-base{

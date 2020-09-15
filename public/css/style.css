@@ -248,21 +248,21 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 6rem;
 }
 main.container {
   width: 800px;
   margin: auto;
-  margin-top: 6rem;
 }
 
 /*--------------menu-la-note-enchantée----------------*/
 .container-note {
   margin: auto;
-  margin-top: 2rem;
   width: 700px;
   box-shadow: 0 0 0.6rem #C6BDC6;
   flex-direction: column;
   text-align: center;
+  margin-top: 6rem;
   margin-bottom: 10rem;
   background-color: #FDE0DC;
 }
@@ -270,11 +270,11 @@ main.container {
 /*-----------menu-le-chic-a-la-francaise--------------*/
 .container-chic {
   margin: auto;
-  margin-top: 2rem;
   width: 700px;
   box-shadow: 0 0 0.6rem #C6BDC6;
   flex-direction: column;
   text-align: center;
+  margin-top: 6rem;
   margin-bottom: 10rem;
   background-color: #FEF5FE;
 }
@@ -282,11 +282,11 @@ main.container {
 /*-----------menu-le-délice-des-papilles--------------*/
 .container-délice {
   margin: auto;
-  margin-top: 2rem;
   width: 700px;
   box-shadow: 0 0 0.6rem #C6BDC6;
   flex-direction: column;
   text-align: center;
+  margin-top: 6rem;
   margin-bottom: 10rem;
   background-color: #EDEFEF;
   margin-top: 6rem;
@@ -295,11 +295,11 @@ main.container {
 /*-------------menu-la-palette-du-goût----------------*/
 .container-palette {
   margin: auto;
-  margin-top: 2rem;
   width: 700px;
   box-shadow: 0 0 0.6rem #C6BDC6;
   flex-direction: column;
   text-align: center;
+  margin-top: 6rem;
   margin-bottom: 10rem;
   background-color: #FDFFFD;
 }
@@ -326,11 +326,11 @@ footer {
   text-decoration-line: none;
 }
 
-/*------------media-queries-1000px----------------*/
+/*-------------------------media-queries-1000px---------------------------*/
 @media all and (max-width: 1000px) {
   body {
     margin: auto;
-    width: auto;
+    width: 100%;
   }
 
   main {
@@ -338,7 +338,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
   }
-  main.conteneur {
+  main.container {
     width: 100%;
     margin: auto;
   }
@@ -357,12 +357,11 @@ footer {
 
   /*--------------------footer--------------------*/
   footer {
-    display: flex;
     margin: auto;
     text-align: center;
   }
 }
-/*------------madia-queries-680px-------------*/
+/*-------------------------madia-queries-680px--------------------------*/
 @media all and (max-width: 680px) {
   body {
     margin: auto;
@@ -371,14 +370,23 @@ footer {
 
   .conteneur {
     margin: auto;
+    width: 100%;
+  }
+
+  .container-note {
+    margin: auto;
+    width: 100%;
+    text-align: center;
   }
 
   .container-délice {
     margin-top: 10rem;
+    width: 100%;
   }
 
   .container-palette {
     margin-top: 10rem;
+    width: 100%;
   }
 
   header {
@@ -387,19 +395,17 @@ footer {
     position: absolute;
   }
 
-  footer {
-    justify-content: space-evenly;
-    margin: auto;
+  span {
+    width: 100%;
   }
 
-  /*--------------------menu-2--------------------*/
-  .menu2 {
-    margin-top: 2rem;
+  .note {
+    width: 100%;
   }
 
-  .vibreur {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  #page-menu-la-note {
+    margin-top: 10rem;
+    margin-bottom: 0.8rem;
   }
 
   /*-------------menu-la-note-enchantée-responsive------------*/
@@ -411,13 +417,15 @@ footer {
   .container-note {
     display: flex;
     margin-top: 10rem;
+    margin-bottom: 10rem;
   }
 
   ul {
     display: flex;
     margin: auto;
     flex-direction: column;
-    margin-left: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-align: center;
   }
 
@@ -429,15 +437,17 @@ footer {
   }
 
   .line-prelude {
+    margin: auto;
+    width: 100%;
     margin-bottom: 3rem;
   }
 
   .line-left-note {
-    width: 1rem;
+    width: 100%;
   }
 
   .line-right-note {
-    width: 1rem;
+    width: 100%;
   }
 
   .price {
@@ -455,6 +465,15 @@ footer {
     margin: auto;
   }
 
+  .titre-bas {
+    padding-right: 2rem;
+  }
+
+  /*--------------------menu-2--------------------*/
+  .menu2 {
+    margin-top: 2rem;
+  }
+
   /*----------------le-chic-a-la-francaise-------------*/
   .container-chic {
     margin-top: 10rem;
@@ -469,6 +488,49 @@ footer {
 
   .sucrées {
     padding-left: 0rem;
+  }
+
+  /*----------------prochainement------------------*/
+  /*--------------------footer---------------------*/
+  footer {
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+  }
+
+  .vibreur {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+/*----------------------media-queries-320px-----------------------*/
+@media all and (max-width: 320px) {
+  footer {
+    width: 320px;
+  }
+
+  .sucrées {
+    padding-left: 1rem;
+  }
+}
+/*---------------------media-queries-280px------------------------*/
+@media all and (max-width: 280px) {
+  footer {
+    width: 280px;
+  }
+
+  .vibreur {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  ul {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .titre-bas {
+    padding-right: 1.5rem;
   }
 }
 /*-------------menu page accueil+h2+h3------------*/
@@ -617,12 +679,14 @@ h3 {
 }
 
 .line-left-note {
-  width: 12rem;
+  min-width: 2rem;
+  max-width: 12rem;
   padding-left: 2rem;
 }
 
 .line-right-note {
-  width: 12rem;
+  min-width: 2rem;
+  max-width: 12rem;
   padding-right: 2rem;
 }
 

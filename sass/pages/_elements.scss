@@ -146,12 +146,14 @@ article {
   }
   
   .line-left-note {
-    width: 12rem;
+    min-width: 2rem;
+    max-width: 12rem;
     padding-left: 2rem;
   }
   
   .line-right-note {
-    width: 12rem;
+    min-width: 2rem;
+    max-width: 12rem;
     padding-right: 2rem;
   }
   

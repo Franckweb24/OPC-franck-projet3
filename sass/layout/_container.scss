@@ -4,10 +4,11 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 6rem;
   &.container {
     width: 800px;
     margin: auto;
-    margin-top: 6rem;
+
   }
 }
 
