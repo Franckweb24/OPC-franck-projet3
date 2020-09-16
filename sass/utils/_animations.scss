@@ -105,7 +105,7 @@
 
   /*----------------animation-le-chic-a-la-francaise-----------------*/
   
-  .appetit {
+  .h4-appetit {
     cursor: pointer;
       &:hover + .underline-chic-1 {
         transform: scale(1);
@@ -117,7 +117,7 @@
     background-color: $color-appetit;
   }
 
-  .papilles {
+  .h4-papilles {
     cursor: pointer;
     &:hover + .underline-chic-2 {
       transform: scale(1);
@@ -129,7 +129,7 @@
     background-color: $color-papilles;
   }
 
-  .sucrées {
+  .h4-sucrées {
     cursor: pointer;
     &:hover + .underline-chic-3 {
       transform: scale(1);
@@ -143,7 +143,7 @@
   
 /*----------------animation-le-délice-des-papilles-----------------*/
   
-  .commencer {
+  .h4-commencer {
     cursor: pointer;
     &:hover + .underline-délice-1 {
       transform: scale(1);
@@ -155,7 +155,7 @@
     background-color: $color-delice-1;
   }
 
-  .continuer {
+  .h4-continuer {
     cursor: pointer;
     &:hover + .underline-délice-2 {
       transform: scale(1);
@@ -167,7 +167,7 @@
     background-color: $color-delice-2;
   }
 
-  .terminer {
+  .h4-terminer {
     cursor: pointer;
     &:hover + .underline-délice-3 {
       transform: scale(1);
@@ -181,7 +181,7 @@
 
   /*----------------animation-la-palette-de-goût-----------------*/
   
-  .goût {
+  .h4-goût {
     cursor: pointer;
     &:hover + .underline-palette {
       transform: scale(1);

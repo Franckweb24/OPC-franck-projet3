@@ -102,10 +102,10 @@ a:hover {
 }
 
 /*----------------animation-le-chic-a-la-francaise-----------------*/
-.appetit {
+.h4-appetit {
   cursor: pointer;
 }
-.appetit:hover + .underline-chic-1 {
+.h4-appetit:hover + .underline-chic-1 {
   transform: scale(1);
 }
 
@@ -118,10 +118,10 @@ a:hover {
   background-color: #C37423;
 }
 
-.papilles {
+.h4-papilles {
   cursor: pointer;
 }
-.papilles:hover + .underline-chic-2 {
+.h4-papilles:hover + .underline-chic-2 {
   transform: scale(1);
 }
 
@@ -134,10 +134,10 @@ a:hover {
   background-color: #A36998;
 }
 
-.sucrées {
+.h4-sucrées {
   cursor: pointer;
 }
-.sucrées:hover + .underline-chic-3 {
+.h4-sucrées:hover + .underline-chic-3 {
   transform: scale(1);
 }
 
@@ -151,10 +151,10 @@ a:hover {
 }
 
 /*----------------animation-le-délice-des-papilles-----------------*/
-.commencer {
+.h4-commencer {
   cursor: pointer;
 }
-.commencer:hover + .underline-délice-1 {
+.h4-commencer:hover + .underline-délice-1 {
   transform: scale(1);
 }
 
@@ -167,10 +167,10 @@ a:hover {
   background-color: #0228DD;
 }
 
-.continuer {
+.h4-continuer {
   cursor: pointer;
 }
-.continuer:hover + .underline-délice-2 {
+.h4-continuer:hover + .underline-délice-2 {
   transform: scale(1);
 }
 
@@ -183,10 +183,10 @@ a:hover {
   background-color: #0670F3;
 }
 
-.terminer {
+.h4-terminer {
   cursor: pointer;
 }
-.terminer:hover + .underline-délice-3 {
+.h4-terminer:hover + .underline-délice-3 {
   transform: scale(1);
 }
 
@@ -200,10 +200,10 @@ a:hover {
 }
 
 /*----------------animation-la-palette-de-goût-----------------*/
-.goût {
+.h4-goût {
   cursor: pointer;
 }
-.goût:hover + .underline-palette {
+.h4-goût:hover + .underline-palette {
   transform: scale(1);
 }
 
@@ -743,16 +743,37 @@ li {
   margin-bottom: 4rem;
 }
 
+.h4-appetit {
+  color: #C37423;
+  margin: 0;
+}
+
 .appetit {
   color: #C37423;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.h4-papilles {
+  color: #A36998;
+  margin: 0;
 }
 
 .papilles {
   color: #A36998;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.h4-sucrées {
+  color: #6B53C9;
+  margin: 0;
 }
 
 .sucrées {
   color: #6B53C9;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .li-chic {
@@ -771,38 +792,49 @@ li {
 }
 
 /*---------------menu-le-délice-des-papilles-----------------*/
-.commencer {
+.h4-commencer {
   font-size: 1.4rem;
   font-weight: 300;
   font-family: "Kalam", cursive;
-}
-
-.continuer {
-  font-size: 1.4rem;
-  font-weight: 300;
-  font-family: "Kalam", cursive;
-}
-
-.terminer {
-  font-size: 1.4rem;
-  font-weight: 300;
-  font-family: "Kalam", cursive;
-}
-
-#h2-délice {
-  font-family: "Dancing Script", cursive;
-  font-size: 1.8rem;
+  margin: 0;
 }
 
 .bien-commencer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding-left: 4rem;
   padding-right: 4rem;
 }
 
-/*----------------menu-la-palette-du-goût------------------*/
-.goût {
+.h4-continuer {
   font-size: 1.4rem;
   font-weight: 300;
+  font-family: "Kalam", cursive;
+  margin: 0;
+}
+
+.h4-terminer {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-family: "Kalam", cursive;
+  margin: 0;
+}
+
+#h2-délice {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.2rem;
+}
+
+/*----------------menu-la-palette-du-goût------------------*/
+#h2-palette {
+  font-size: 2.2rem;
+}
+
+.h4-goût {
+  font-family: "Kalam", cursive;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 0;
 }
 
 .li-goût {

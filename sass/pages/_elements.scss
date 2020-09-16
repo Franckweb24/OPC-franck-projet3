@@ -208,16 +208,37 @@ article {
     margin-bottom: 4rem;
   }
   
+  .h4-appetit {
+    color: $color-appetit;
+    margin: 0;
+  }
+
   .appetit {
     color: $color-appetit;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .h4-papilles {
+    color: $color-papilles;
+    margin: 0;
   }
   
   .papilles {
     color: $color-papilles;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   
+  .h4-sucrées {
+    color: $color-sucrees;
+    margin: 0;
+  }
+
   .sucrées {
     color: $color-sucrees;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   
   .li-chic {
@@ -237,39 +258,50 @@ article {
   
   /*---------------menu-le-délice-des-papilles-----------------*/
   
-  .commencer {
+  .h4-commencer {
     font-size: 1.4rem;
     font-weight: 300;
     font-family: 'Kalam', cursive;
+    margin: 0;
   }
-  
-  .continuer {
-    font-size: 1.4rem;
-    font-weight: 300;
-    font-family: 'Kalam', cursive;
-  }
-  
-  .terminer {
-    font-size: 1.4rem;
-    font-weight: 300;
-    font-family: 'Kalam', cursive;
-  }
-  
-  #h2-délice {
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.8rem;
-  }
-  
+
   .bien-commencer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding-left: 4rem;
     padding-right: 4rem;
   }
   
-  /*----------------menu-la-palette-du-goût------------------*/
-  
-  .goût {
+  .h4-continuer {
     font-size: 1.4rem;
     font-weight: 300;
+    font-family: 'Kalam', cursive;
+    margin: 0;
+  }
+
+  .h4-terminer {
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-family: 'Kalam', cursive;
+    margin: 0;
+  }
+  
+  #h2-délice {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2rem;
+  }
+  
+  /*----------------menu-la-palette-du-goût------------------*/
+  
+  #h2-palette {
+    font-size: 2.2rem;
+  }
+
+  .h4-goût {
+    font-family: 'Kalam', cursive;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 0;
   }
   
   .li-goût {
