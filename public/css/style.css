@@ -42,6 +42,10 @@ article:hover {
   animation-delay: 1.2s;
 }
 
+.anim-point .point5 {
+  animation-delay: 1.6s;
+}
+
 @keyframes dots {
   0% {
     opacity: 0;
@@ -644,9 +648,9 @@ h3 {
   height: 4rem;
   border-radius: 0.6rem;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 10rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .loading {
