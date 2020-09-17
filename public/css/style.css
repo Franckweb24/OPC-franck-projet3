@@ -652,15 +652,13 @@ h3 {
   margin-bottom: 10rem;
   padding-bottom: 1rem;
 }
-
-.loading {
+.load .loading {
   padding-left: 1rem;
   font-size: 1.6rem;
   color: #fcca46;
   font-weight: 300;
 }
-
-.anim-point {
+.load .anim-point {
   display: flex;
   justify-content: space-evenly;
   padding-left: 0.5rem;
@@ -683,14 +681,12 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
-
-.line-left-note {
+.line-prelude .line-left-note {
   min-width: 2rem;
   max-width: 12rem;
   padding-left: 2rem;
 }
-
-.line-right-note {
+.line-prelude .line-right-note {
   min-width: 2rem;
   max-width: 12rem;
   padding-right: 2rem;
@@ -700,20 +696,24 @@ ul {
   list-style: none;
   text-align: left;
 }
+ul .food {
+  display: flex;
+  justify-content: space-between;
+}
+ul .food .price {
+  padding-right: 2.5rem;
+}
 
 li {
-  padding-bottom: 1rem;
   font-family: "Kalam", cursive;
   font-size: 1.1rem;
 }
 
-.food {
-  display: flex;
-  justify-content: space-between;
+.mouvement-final {
+  text-align: left;
 }
-
-.price {
-  padding-right: 2.5rem;
+.mouvement-final .li-mouvement {
+  padding-bottom: 2rem;
 }
 
 .note-fin {
@@ -730,10 +730,6 @@ li {
 .menu-note-bas {
   width: 2.5rem;
   padding-right: 1rem;
-}
-
-.mouvement-final {
-  text-align: left;
 }
 
 /*------------------menu-le-chic-a-la-francaise-------------------*/
@@ -775,8 +771,13 @@ li {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.sucrées .li-sucrées {
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
 
-.li-chic {
+#li-chic {
   font-family: "Source Serif Pro", serif;
   font-weight: bold;
 }
@@ -837,7 +838,7 @@ li {
   margin: 0;
 }
 
-.li-goût {
+#li-goût {
   font-size: 1rem;
 }
 

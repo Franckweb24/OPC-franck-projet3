@@ -114,19 +114,16 @@ article {
     margin-top: 2rem;
     margin-bottom: 10rem;
     padding-bottom: 1rem;
-  }
-  
-  .loading {
-    padding-left: 1rem;
-    font-size: 1.6rem;
-    color: $color-title;
-    font-weight: 300;
-  }
-  
-  .anim-point {
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 0.5rem;
+    & .loading {
+      padding-left: 1rem;
+      font-size: 1.6rem;
+      color: $color-title;
+      font-weight: 300;
+    } & .anim-point {
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 0.5rem;
+    }
   }
   
   /*----------------menu-la-note-enchantée--------------*/
@@ -146,40 +143,41 @@ article {
   .line-prelude {
     display: flex;
     justify-content: space-between;
+    & .line-left-note {
+      min-width: 2rem;
+      max-width: 12rem;
+      padding-left: 2rem;
+    } & .line-right-note {
+      min-width: 2rem;
+      max-width: 12rem;
+      padding-right: 2rem;
+    }
   }
-  
-  .line-left-note {
-    min-width: 2rem;
-    max-width: 12rem;
-    padding-left: 2rem;
-  }
-  
-  .line-right-note {
-    min-width: 2rem;
-    max-width: 12rem;
-    padding-right: 2rem;
-  }
-  
+   
   ul {
     list-style: none;
     text-align: left;
+    & .food {
+      display: flex;
+      justify-content: space-between;
+      & .price {
+        padding-right: 2.5rem;
+      }
+    }
   }
   
   li {
-    padding-bottom: 1rem;
     font-family: 'Kalam', cursive;
     font-size: 1.1rem;
   }
-  
-  .food {
-    display: flex;
-    justify-content: space-between;
+
+  .mouvement-final {
+    text-align: left;
+    & .li-mouvement {
+      padding-bottom: 2rem;
+    }
   }
-  
-  .price {
-    padding-right: 2.5rem;
-  }
-  
+
   .note-fin {
     font-size: 2rem;
     font-family: 'Devonshire', cursive;
@@ -194,10 +192,6 @@ article {
   .menu-note-bas {
     width: 2.5rem;
     padding-right: 1rem;
-  }
-  
-  .mouvement-final {
-    text-align: left;
   }
   
   /*------------------menu-le-chic-a-la-francaise-------------------*/
@@ -239,13 +233,18 @@ article {
     color: $color-sucrees;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    & .li-sucrées {
+      font-family: 'Source Serif Pro', serif;
+      font-weight: bold;
+      padding-bottom: 2rem;
+    }
   }
   
-  .li-chic {
+  #li-chic {
     font-family: 'Source Serif Pro', serif;
     font-weight: bold;
   }
-  
+
   .gourmendises-sucrees {
     margin-bottom: 5rem;
   }
@@ -303,9 +302,11 @@ article {
     font-weight: 300;
     margin: 0;
   }
-  
-  .li-goût {
+
+  #li-goût {
     font-size: 1rem;
   }
+  
+
   
   
