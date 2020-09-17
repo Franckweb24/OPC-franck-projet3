@@ -107,25 +107,28 @@ article {
     display: flex;
     flex-direction: row;
     background-color: $color-bando;
-    width: 20rem;
+    width: 18rem;
     height: 4rem;
     border-radius: 0.6rem;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 10rem;
     padding-bottom: 1rem;
-    & .loading {
-      padding-left: 1rem;
-      font-size: 1.6rem;
-      color: $color-title;
-      font-weight: 300;
-    } & .anim-point {
-      display: flex;
-      justify-content: space-evenly;
-      padding-left: 0.5rem;
-    }
   }
-  
+
+  .loading {
+    padding-left: 0.5rem;
+    font-size: 1.6rem;
+    color: $color-title;
+    font-weight: 300;
+    margin-top: 1.5rem;
+  } 
+
+  .anim-point {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   /*----------------menu-la-note-enchantée--------------*/
   
   .menu-note_img {
@@ -144,12 +147,12 @@ article {
     display: flex;
     justify-content: space-between;
     & .line-left-note {
-      min-width: 2rem;
-      max-width: 12rem;
+      min-width: 1%;
+      max-width: 20%;
       padding-left: 2rem;
     } & .line-right-note {
-      min-width: 2rem;
-      max-width: 12rem;
+      min-width: 1%;
+      max-width: 20%;
       padding-right: 2rem;
     }
   }

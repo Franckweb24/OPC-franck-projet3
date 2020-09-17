@@ -2,7 +2,7 @@
 /*-------------page-acceuil-------------*/
 article:hover {
   transform: scale(1);
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 /*--------------menu1-2-3-4-zoom------------*/
@@ -57,9 +57,6 @@ article:hover {
     opacity: 0;
   }
   40% {
-    transform: scale(0.5);
-  }
-  40% {
     transform: translateY(0.7rem);
   }
   90% {
@@ -92,7 +89,6 @@ a:hover {
 }
 
 .underline {
-  width: 100%;
   height: 0.2rem;
   border-radius: 30%;
   background-color: #000000;
@@ -110,7 +106,6 @@ a:hover {
 }
 
 .underline-chic-1 {
-  width: 100%;
   height: 0.2rem;
   transform-origin: 0% 50%;
   transform: scale(0);
@@ -126,7 +121,6 @@ a:hover {
 }
 
 .underline-chic-2 {
-  width: 100%;
   height: 0.2rem;
   transform-origin: 0% 50%;
   transform: scale(0);
@@ -142,7 +136,6 @@ a:hover {
 }
 
 .underline-chic-3 {
-  width: 100%;
   height: 0.2rem;
   transform-origin: 0% 50%;
   transform: scale(0);
@@ -159,7 +152,6 @@ a:hover {
 }
 
 .underline-délice-1 {
-  width: 100%;
   height: 0.2rem;
   transform-origin: 0% 50%;
   transform: scale(0);
@@ -175,7 +167,6 @@ a:hover {
 }
 
 .underline-délice-2 {
-  width: 100%;
   height: 0.2rem;
   transform-origin: 0% 50%;
   transform: scale(0);
@@ -191,7 +182,6 @@ a:hover {
 }
 
 .underline-délice-3 {
-  width: 100%;
   height: 0.2rem;
   transform-origin: 0% 50%;
   transform: scale(0);
@@ -208,7 +198,6 @@ a:hover {
 }
 
 .underline-palette {
-  width: 100%;
   height: 0.2rem;
   transform-origin: 0% 50%;
   transform: scale(0);
@@ -644,7 +633,7 @@ h3 {
   display: flex;
   flex-direction: row;
   background-color: #579C87;
-  width: 20rem;
+  width: 18rem;
   height: 4rem;
   border-radius: 0.6rem;
   text-align: center;
@@ -652,16 +641,18 @@ h3 {
   margin-bottom: 10rem;
   padding-bottom: 1rem;
 }
-.load .loading {
-  padding-left: 1rem;
+
+.loading {
+  padding-left: 0.5rem;
   font-size: 1.6rem;
   color: #fcca46;
   font-weight: 300;
+  margin-top: 1.5rem;
 }
-.load .anim-point {
+
+.anim-point {
   display: flex;
   justify-content: space-evenly;
-  padding-left: 0.5rem;
 }
 
 /*----------------menu-la-note-enchantée--------------*/
@@ -682,13 +673,13 @@ h3 {
   justify-content: space-between;
 }
 .line-prelude .line-left-note {
-  min-width: 2rem;
-  max-width: 12rem;
+  min-width: 1%;
+  max-width: 20%;
   padding-left: 2rem;
 }
 .line-prelude .line-right-note {
-  min-width: 2rem;
-  max-width: 12rem;
+  min-width: 1%;
+  max-width: 20%;
   padding-right: 2rem;
 }
 
